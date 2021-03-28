@@ -5,7 +5,7 @@
 SCE212 | 소프트웨어 | 안정섭 | 2021년 3학년 1학기 |
 * * *
 
-- [ ] sce212-project0
+- [x] sce212-project0
 - [ ] sce212-project1
 - [ ] sce212-project2
 - [ ] sce212-project3
