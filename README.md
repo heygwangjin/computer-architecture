@@ -47,3 +47,9 @@ SCE212 | 소프트웨어 | 안정섭 | 2021년 3학년 1학기 |
 1. You can assume that the `.data` and `.text` directives appear only once  
 2. `.data` must appear before `.text` directive  
 3. Assume that each word in the data section is initialized  
+
+### 3. TIL
+- fgets() 함수는 스트림에서 문자열을 받아서 (num - 1) 개의 문자를 입력 받을 때 혹은 개행 문자나 EOF 에 도달할 때 까지 입력 받아서 C 형식 문자열로 저장한다. 개행 문자까지 문자열에 저장하고 NULL 문자는 자동적으로 마지막으로 입력받은 문자 뒤에 포함
+- strcmp() 함수는 비교하는 두 문자열의 아스키코드 값이 같으면 0 을 반환한다.
+- strtok() 함수는 원본 문자열의 변형시킨다. 두 번째 인장 해당하는 값을 만나면 그 곳의 값을 NULL 문자로 변형시킨다.
+- fputs() 함수는 str 이 가리키는 문자열을 NULL 문자에 도달할 때 까지 스트림에 복사하는데, 이 때 NULL 문자는 스트림에 복사되지 않는다.
